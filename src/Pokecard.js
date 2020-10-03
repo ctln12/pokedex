@@ -7,7 +7,7 @@ class Pokecard extends Component {
     return (
       <div>
         <h4>{pokemon.name}</h4>
-        <img src={imgUrl} />
+        <img src={imgUrl} alt={pokemon.name} />
         <p>Type: {pokemon.type}</p>
         <p>EXP: {pokemon.base_experience}</p>
       </div>
