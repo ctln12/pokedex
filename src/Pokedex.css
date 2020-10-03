@@ -1,6 +1,10 @@
 .Pokedex {
-  margin: 2rem 3rem;
+  margin: 2rem 6rem;
   text-align: center;
+}
+
+.Pokedex-title {
+  margin-bottom: 2.5rem;
 }
 
 .Pokedex-pokemons {
