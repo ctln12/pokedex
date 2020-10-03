@@ -1,9 +1,11 @@
 .Pokedex {
-  margin: 2rem;
+  margin: 2rem 3rem;
   text-align: center;
 }
 
 .Pokedex-pokemons {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 6rem;
+  row-gap: 3rem;
 }
