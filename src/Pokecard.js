@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 
+import './Pokecard.css';
+
 class Pokecard extends Component {
   render() {
     let {pokemon} = this.props;
     let imgUrl = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png`;
     return (
-      <div>
+      <div className="Pokecard">
         <h4>{pokemon.name}</h4>
         <img src={imgUrl} alt={pokemon.name} />
         <p>Type: {pokemon.type}</p>
