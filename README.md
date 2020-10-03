@@ -23,6 +23,7 @@ The project is under construction.
 ### Credits & Sources
 
 * Images from [PokeAPI/sprites](https://github.com/PokeAPI/sprites)
-For the source in the image tag use https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png and change the id for that of the corresponding Pokemon
 
-* Project from [The Modern React Bootcamp](https://www.udemy.com/course/modern-react-bootcamp)
+*As the source in the image tag use `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png` and change the `id` for that of the corresponding Pokemon*
+
+* First small project from [The Modern React Bootcamp](https://www.udemy.com/course/modern-react-bootcamp)
