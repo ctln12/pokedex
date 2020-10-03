@@ -4,7 +4,7 @@
 
 This project aims to practice using React components and properties. The goal is to create a pokemon application (a “pokedex”) that displays an interface that looks like this:
 
-![pokedex](pokedex.png)
+![pokedex](./src/pokedex.png)
 
 ### Technologies
 
