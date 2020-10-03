@@ -1,0 +1,9 @@
+.Pokedex {
+  margin: 2rem;
+  text-align: center;
+}
+
+.Pokedex-pokemons {
+  display: flex;
+  justify-content: space-between;
+}
