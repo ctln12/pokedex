@@ -2,12 +2,16 @@
   text-align: center;
 }
 
-.Pokedex-title {
-  margin: 1.5rem 0;
-}
-
 .Pokedex-pokemons {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+}
+
+.Pokedex-winner {
+  color: #4caf50;
+}
+
+.Pokedex-loser {
+  color: #e91e63;
 }
