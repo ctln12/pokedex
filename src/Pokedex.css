@@ -6,8 +6,14 @@
 
 .Pokedex-winner {
   color: #4caf50;
+  margin: .75rem 0;
 }
 
 .Pokedex-loser {
   color: #e91e63;
+  margin: .75rem 0;
+}
+
+.Pokedex-total-experience {
+  margin: .35rem 0;
 }
