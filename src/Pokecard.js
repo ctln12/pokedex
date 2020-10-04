@@ -13,8 +13,10 @@ class Pokecard extends Component {
     let imgUrl = `${POKE_API}${padToThree(pokemon.id)}.png`;
     return (
       <div className="Pokecard">
-        <h3>{pokemon.name}</h3>
-        <img src={imgUrl} alt={pokemon.name} />
+        <h3 className="Pokecard-title">{pokemon.name}</h3>
+        <div className="Pokecard-image">
+          <img src={imgUrl} alt={pokemon.name} />
+        </div>
         <p>Type: {pokemon.type}</p>
         <p>EXP: {pokemon.base_experience}</p>
       </div>
